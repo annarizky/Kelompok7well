@@ -16,3 +16,29 @@ Mirror Glaze Cake adalah situs web yang didasarkan pada daya tarik visualnya ber
 Back End = Laravel
 Front end = CSS
 
+# Alur kerja sistem
+[Start]
+   ↓
+[User membuka website]
+   ↓
+[Melihat katalog kue]
+   ↓
+[Memilih kue / custom desain]
+   ↓
+[Klik tombol "Pesan via WhatsApp"]
+   ↓
+[Redirect ke WhatsApp dengan pesan otomatis]
+   ↓
+[User mengirim pesan]
+   ↓
+[Admin menerima pesanan]
+   ↓
+[Admin konfirmasi detail & harga]
+   ↓
+[User menyetujui pesanan]
+   ↓
+[Proses pembuatan kue]
+   ↓
+[Pengiriman / Pengambilan]
+   ↓
+[End]
