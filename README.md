@@ -53,3 +53,11 @@ Front end = CSS
 - Sulit scale jika order banyak
 - Tidak ada tracking sistematis
 
+# Fitur Utama
+- Katalog Produk: Menampilakan berbagai jenis katalog kue dan harga
+- Custom Order: Form untuk pelanggan menginput detail kue
+- Integrasi WhatsApp: Redirect otomatis ke chat admin dengan format pesan yang sudah terisi
+
+
+
+
