@@ -19,8 +19,8 @@
        <h3 class=" text-4xl font-bold text-center text-[#F13E93]">GLAZYLICIOUS</h3>
         <div class="">
           <ul class="flex items-center gap-6">
-            <li
-              <a href="" class="text-[#F13E93] font-medium py-2 px-6 rounded-full hover:bg-[#FFCEE3] transition-colors text-gray-700 hover:text-gray-900">Home</a>
+            <li>
+              <a href="index2.html" class="text-[#F13E93] font-medium py-2 px-6 rounded-full hover:bg-[#FFCEE3] transition-colors">Home</a>
             </li>
             <li>
               <a href="about2.html" class="text-[#F13E93] font-medium py-2 px-6 rounded-full hover:bg-[#FFCEE3] transition-colors text-gray-700 hover:text-gray-900">About</a>
@@ -116,35 +116,130 @@
     </div>
   </div>
 </section>
+<!-- BAGIAN TESTIMONI (What Our Customers Say) -->
+    <section class="w-full bg-[#DAF9DE] py-18 flex flex-col items-center justify-center min-h-[650px]">
+      <div class="text-center mb-10">
+        <!-- Label kecil -->
+        <span class="text-[#F13E93] text-sm font-bold tracking-widest uppercase">Testimonials</span>
+        <!-- Judul -->
+        <h2 class="text-4xl font-bold text-gray-800 mt-2">What Our <span class="text-[#F13E93]">Customers</span> Say</h2>
+      </div>
 
+      <!-- Kartu Testimoni -->
+      <div class="relative bg-white p-10 rounded-3xl shadow-xl max-w-2xl mx-10">
+        <!-- Ikon Tanda Kutip Bulat -->
+        <div class="absolute -top-5 left-10 bg-[#F13E93] text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
+          “
+        </div>
+        
+        <!-- Bintang -->
+        <div class="flex gap-1 mb-4">
+          <i data-lucide="star" class="w-5 h-5 fill-[#F13E93] text-[#F13E93]"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-[#F13E93] text-[#F13E93]"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-[#F13E93] text-[#F13E93]"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-[#F13E93] text-[#F13E93]"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-[#F13E93] text-[#F13E93]"></i>
+        </div>
 
-    <footer class="w-full py-16 bg-[#DAF9DE]">
-      <div class="container px-20 mx-auto">
-        <div class="flex justify-between">
-          <div>
-            <h3 class=" text-4xl font-bold text-center">Contact Us</h3>
-            <a href="#" class="flex items-center">
-              <img
-                src="ig.png"
-                alt="instagram"
-                class="h-10"/> 
+        <!-- Teks Ulasan -->
+        <p class="text-lg text-gray-600 italic leading-relaxed mb-6">
+          "GLAZYLICIOUS made our wedding day absolutely magical! The three-tier cake was not only stunning but tasted incredible. Every guest couldn't stop talking about it!"
+        </p>
 
-              <span class="ml-2 py-3 text-xl font-bold">Jam Operasi</span>
-                <img src="ig.png" alt="">
-                  <a href="https://www.instagram.com/?hl=en" class="px-3 text-gray-600 hover:text-gray-900" >instagram</a>
-                
-            </a>
+        <!-- Profil -->
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 bg-[#FAFFCB] rounded-full flex items-center justify-center text-[#F13E93] font-bold">
+            S
+          </div>
+          <span class="font-bold text-gray-800">Sabrina Carpenter</span>
+        </div>
+      </div>
+    <!-- CONTACT & LOCATION SECTION (GAYA FIGMA) -->
+    <section class="w-full bg-[#FAFFCB] py-20">
+      <div class="container mx-auto px-10 md:px-20">
+        <!-- Header Section -->
+        <div class="text-center mb-16">
+          <h2 class="text-5xl font-bold text-gray-800">Contact <span class="text-[#F13E93]">Us</span></h2>
+          <p class="text-gray-600 mt-4 text-lg">Have questions or want to place a custom order? We'd love to hear from you!</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <!-- SISI KIRI: "Send us a Message" Form -->
+          <div class="bg-white p-8 rounded-[40px] shadow-xl border border-white/50">
+            <h3 class="text-2xl font-bold mb-8 text-gray-800">Send us a Message</h3>
+            <form class="space-y-5">
+              <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Your Name</label>
+                <input type="text" placeholder="John Doe" class="w-full px-5 py-3 rounded-2xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-[#F13E93]/20 transition-all">
+              </div>
+              <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                <input type="email" placeholder="john@example.com" class="w-full px-5 py-3 rounded-2xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-[#F13E93]/20 transition-all">
+              </div>
+              <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Message</label>
+                <textarea rows="4" placeholder="Tell us about your cake dreams..." class="w-full px-5 py-3 rounded-2xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-[#F13E93]/20 transition-all"></textarea>
+              </div>
+              <button type="button" class="w-full bg-[#F13E93] text-white font-bold py-4 rounded-2xl hover:bg-[#d63381] transform hover:scale-[1.02] transition-all shadow-lg">
+                Send Message
+              </button>
+            </form>
           </div>
 
-          <div class="flex gap-[63px]">
-            <div>
-              <h3 class="mb-4 text-lg font-semibold">Contact</h3>
-              <ul class="space-y-2">
-                <li>
-                  <a href="#" class="text-gray-600 hover:text-gray-900">Pesan via Whatsapp</a>
-                </li>
-                <li>
-                  <a class="text-gray-600 hover:text-gray-900">085-674-9873</a>
+          <!-- SISI KANAN: Info Cards & Map -->
+          <div class="space-y-6">
+            <!-- Row 1: WhatsApp & Jam Operasi -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div class="bg-white p-6 rounded-3xl shadow-md flex items-center gap-4 border border-white/50">
+                <div class="bg-[#FFCEE3] p-3 rounded-2xl text-[#F13E93]">
+                  <i data-lucide="phone" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <p class="text-[10px] text-gray-400 font-bold uppercase tracking-wider">WhatsApp</p>
+                  <p class="font-bold text-gray-800">085-674-9873</p>
+                </div>
+              </div>
+              
+              <div class="bg-white p-6 rounded-3xl shadow-md flex items-center gap-4 border border-white/50">
+                <div class="bg-[#FFCEE3] p-3 rounded-2xl text-[#F13E93]">
+                  <i data-lucide="clock" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <p class="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Hours</p>
+                  <p class="font-bold text-gray-800">Mon-Sat: 8AM-8PM</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Address Card -->
+            <div class="bg-white p-6 rounded-3xl shadow-md flex items-center gap-4 border border-white/50">
+              <div class="bg-[#FFCEE3] p-3 rounded-2xl text-[#F13E93]">
+                <i data-lucide="map-pin" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <p class="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Address</p>
+                <p class="font-bold text-gray-800">123 Sweet Street, Bakery District</p>
+              </div>
+            </div>
+
+            <!-- Map Area Placeholder -->
+            <div class="w-full h-52 bg-gray-200 rounded-[32px] overflow-hidden relative border-4 border-white shadow-xl group">
+              <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" 
+                   style="background-image: url('https://api.placeholder.com/600/400'); filter: grayscale(20%);">
+                <!-- Overlay warna pink tipis agar menyatu -->
+                <div class="absolute inset-0 bg-[#F13E93]/5"></div>
+              </div>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg flex items-center gap-2 border border-[#F13E93]/20">
+                  <i data-lucide="map" class="w-5 h-5 text-[#F13E93]"></i>
+                  <span class="text-[#F13E93] font-bold">Visit Our Store</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
                 </li>
               </ul>
             </div>
